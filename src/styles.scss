@@ -4,17 +4,17 @@
 @use "@infragistics/igniteui-angular/theming" as *;
 
 @include core();
-@include typography($font-family: "Nunito Sans", $type-scale: $indigo-type-scale);
+@include typography($font-family: "Lato", $type-scale: $fluent-type-scale);
 
 $custom-palette: palette(
-  $primary: #3f51b5,
-  $secondary: #3f51b5,
-  $surface: #f8f8fa,
-  $error: #cf1a2b,
-  $success: #689f38,
-  $warn: #f56b1d,
-  $info: #9c27b0);
-@include theme($palette: $custom-palette, $schema: $light-indigo-schema);
+  $primary: #1B5F9E,
+  $secondary: #4796DE,
+  $surface: #fff,
+  $error: #B03953,
+  $success: #477C29,
+  $warn: #E86A23,
+  $info: #633871);
+@include theme($palette: $custom-palette, $schema: $light-fluent-schema);
 
 body {
   background: var(--ig-surface-500);
